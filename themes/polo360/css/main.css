@@ -1,0 +1,159 @@
+.header{
+	width: 960px;
+	margin: auto;
+	padding: 40px 0 20px 0;
+	overflow: hidden;
+}
+
+.container{
+	width: 960px;
+	margin: auto;
+}
+
+.logo{
+	float: left;
+}
+
+.menu{
+	float:right;
+	font-family:Georgia;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:16px;
+}
+
+.menu p{
+	font-family:tahoma;
+	font-size:11px;
+	text-transform:none;
+	margin:0;
+	color:#b7b7b7;
+}
+
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.menu ul li{
+	display:inline-block;
+	border-left:2px dotted #d6d6d6;
+}
+
+.menu ul li a{
+	text-decoration:none;
+	text-transform:uppercase;
+	display:block;
+	color:#666666;
+	padding:0 10px;
+}
+
+.menu li a{
+	text-transform: uppercase;
+}
+
+.slider{
+	margin-top: 2%;
+	width: 100%;
+    background-image:linear-gradient(black, #404040);
+    position: relative;
+    height: 342px;
+}
+
+.slider .container{
+	padding-top: 20px;
+	display: absolute;
+}
+
+.container h2{
+	text-align: center;
+	padding-top: 35px;
+}
+
+.container h3{
+	font-family:Georgia;
+	font-size:21px;
+	text-transform:capitalize;
+	color:#11719e;
+	margin:0;
+}
+
+.container h5{
+	font-size:12px;
+	font-weight:normal;
+	color:#8c8c8c;
+	margin:0;
+	padding-bottom:3%;
+}
+
+.container hr{
+	margin-top: auto;
+	border: 0.1px outset silver;
+}
+
+.col-md-4{
+	padding-top: 45px; 
+}
+
+.col-md-4 hr { 
+	margin-top: auto;
+	height: none;
+	border: none;
+	border-top: 1px dashed grey;
+
+}
+
+.footer {
+	background:#333333;
+	border-top:10px solid #4c4c4c;
+	overflow:hidden;
+	color:#999;
+	margin-top:3%;
+}
+
+.mainContent {
+	width:80%;
+	margin:auto;
+}
+
+.poweredby {
+	float:left;
+	padding:15px 0 120px 0;
+}
+.poweredby p {
+	margin:0;
+	padding:5px 0;
+}
+.poweredby ul {
+	padding:0;	
+	margin:0;
+}
+.poweredby ul li {
+	list-style:none;
+	display:inline;
+	border-right:1px solid #999;
+}
+.poweredby ul li a {
+	color:#999999;
+	text-decoration:none;
+	padding-right:5px;
+}
+.poweredby ul li a:hover {
+	color:#11719e;
+
+}
+.poweredby ul li:last-child {
+	border-right:0;
+}
+.copyright {
+	float:right;
+	padding:15px 0 120px 0;
+}
+.copyright p {
+	margin:0;
+	padding:5px;
+}
+.clr {
+	clear:both;
+}
